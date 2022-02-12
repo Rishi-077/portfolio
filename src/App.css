@@ -22,3 +22,116 @@
 }
 /* navbar design */
 
+/* Home condent */
+
+.home {
+  display: block;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.home-div {
+  margin-top: 80px;
+  margin-left: 50px;
+}
+
+.home-h1 {
+  font-weight: 900;
+  font-size: 70px;
+}
+
+.home-p {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.home-ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 30px;
+  font-size: 30px;
+}
+
+.icon {
+    font-size:40px;
+    color: white
+ 
+}
+.icon:hover{
+   color: #33415c;
+   transition: 1s;
+  }
+
+.home-img {
+  border-radius:50%;
+  width:40%;
+  border: 60px solid white;
+  margin-right: 50px;
+  transition: 1s;
+}
+
+.home-img:hover {
+  border-radius:50%;
+  width:42%;
+  border: 60px solid #33415c;
+  transition: 1s;
+  margin-right: 50px;
+}
+
+.home-span{
+  font-size: 25px;
+  font-weight: 700;
+  transition: 1s;
+}
+
+.home-name:hover {
+  color: #33415c;
+  transition: 1s;
+}
+
+.home-span:hover{
+  font-size: 35px;
+  font-weight: 700;
+  color: #33415c;
+  transition: 1s;
+}
+
+
+ @media only screen and (max-width: 1144px) {
+   .home {
+     display: inline;
+  }
+   .home-div {
+     margin-top: 80px;
+     text-align: center;
+  }
+
+  .home-h1 {  
+  font-weight: 900;
+  font-size: 70px;
+  }
+
+  .home-p {
+  font-weight: 500;
+  font-size: 25px;
+  }
+
+  .home-img {
+  border-radius:50%;
+  width:45%;
+  border: 20px solid white;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+}
+.home-img:hover {
+  border-radius:50%;
+  width:50%;
+  border: 20px solid #33415c;
+  transition: 1s;
+  margin: 0 auto;
+  margin-top: 50px;
+  align-items: center;
+}
+ }
