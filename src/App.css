@@ -1,3 +1,24 @@
-body {
-  font-family: 'Poppins', sans-serif;;
+/* navbar design */
+
+.nav-items--{
+  align-items: center;
+  display: flex;
 }
+.navbar-header {
+  background-color: rgb(255, 255, 255);
+}
+.nav-link {
+  margin: 0px 5px;
+  font-weight: 800;
+  font-size:15px;
+}
+
+@media only screen and (min-width:997px) {
+  .nav-items--{
+    justify-content: space-around;
+    margin: 0 auto;
+    display: flex;
+}
+}
+/* navbar design */
+
