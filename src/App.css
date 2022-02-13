@@ -28,12 +28,13 @@
   display: block;
   display: flex;
   justify-content: space-around;
-  margin-top: 100px;
+  margin-top: 60px;
   margin-bottom: 100px;
 }
 .home-div {
-  margin-top: 80px;
+  margin-top: 130px;
   margin-left: 50px;
+  
 }
 
 .home-h1 {
@@ -69,6 +70,8 @@
   border: 60px solid white;
   margin-right: 50px;
   transition: 1s;
+  margin-top: 120px;
+  margin-bottom: 10px;
 }
 
 .home-img:hover {
@@ -121,8 +124,9 @@
   border-radius:50%;
   width:45%;
   border: 20px solid white;
-  margin: 0 auto;
+  margin: 0px auto;
   margin-top: 50px;
+  margin-bottom: 80px;
   display: flex;
 }
 .home-img:hover {
@@ -132,6 +136,148 @@
   transition: 1s;
   margin: 0 auto;
   margin-top: 50px;
+  margin-bottom: 90px;
   align-items: center;
 }
+ }
+
+ /* home condent */
+
+ /* about condent  */
+
+ .about-page {
+   display: flex;
+   padding: 140px 20px;
+   padding-bottom: 40px; 
+ }
+
+ .about-image {
+   width: 40%;
+   margin-top: 0px;
+
+ }
+ .about-h2 {
+   color: #33415c;
+   margin: 0px auto;
+   margin-top: 70px;
+   margin-bottom: 50px;
+   font-size: 40px;
+   font-weight: 900;
+   margin-left: 50px;
+   font-family: 'Noto Sans', sans-serif;
+ }
+
+ .about-p {
+   color: #33415c;
+   font-size: 30px;
+   font-family: 'Noto Sans', sans-serif;
+   margin-left: 150px;
+   margin-top: 0px;
+   font-weight: bold;
+ }
+
+ .about-btn a {
+   text-decoration: none;
+   color: white;
+   font-size:20px;
+   font-family: 'Noto Sans', sans-serif;
+   font-weight: bold;
+ }
+ .about-btn a:hover {
+   text-decoration: none;
+   color: white;
+   font-size:20px;
+   font-weight: bold;
+   font-family: 'Noto Sans', sans-serif;
+ }
+ .about-btn{
+   background-color: #36a4ff;
+   color: white;
+   box-shadow: none;
+   border: 0px solid #36a4ff;
+   padding: 10px 40px;
+   border-radius:24px;
+   margin-left: 150px;
+   margin-top: 50px;
+   transition: 0.2s;
+ }
+.about-btn:hover {
+   background-color: #33415c;
+   color: white;
+   box-shadow: none;
+   border: 0px solid #36a4ff;
+   padding: 10px 40px;
+   border-radius:24px;
+   margin-left: 150px;
+   margin-top: 50px;
+   box-shadow: 0px 0px 15px black;
+   transition: 0.2s;
+ }
+
+ @media only screen and (max-width: 1144px) {
+  .about-page {
+   display: flex;
+   padding: 100px 20px;
+   padding-bottom: 100px; 
+ }
+  .about-image {
+   display: none;
+ }
+  .about-h2 {
+   color: #33415c;
+   margin: 0px auto;
+   margin-top: 70px;
+   margin-bottom: 50px;
+   font-size: 40px;
+   font-weight: 900;
+   margin-left: 50px;
+   font-family: 'Noto Sans', sans-serif;
+ }
+
+ .about-p {
+   color: #33415c;
+   font-size: 30px;
+   font-family: 'Noto Sans', sans-serif;
+   margin-left: 150px;
+   margin-top: 0px;
+   font-weight: bold;
+ }
+
+ .about-btn a {
+   text-decoration: none;
+   color: white;
+   font-size:20px;
+   font-family: 'Noto Sans', sans-serif;
+   font-weight: bold;
+ }
+ .about-btn a:hover {
+   text-decoration: none;
+   color: white;
+   font-size:20px;
+   font-weight: bold;
+   font-family: 'Noto Sans', sans-serif;
+ }
+ .about-btn{
+   background-color: #36a4ff;
+   color: white;
+   box-shadow: none;
+   border: 0px solid #36a4ff;
+   padding: 10px 40px;
+   border-radius:24px;
+   margin-left: 150px;
+   margin-top: 50px;
+   transition: 0.2s;
+ }
+.about-btn:hover {
+   background-color: #33415c;
+   color: white;
+   box-shadow: none;
+   border: 0px solid #36a4ff;
+   padding: 10px 40px;
+   border-radius:24px;
+   margin-left: 150px;
+   margin-top: 50px;
+   box-shadow: 0px 0px 15px black;
+   transition: 0.2s;
+ }
  }
