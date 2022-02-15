@@ -6,10 +6,10 @@ function Home ()
 {
   
   return ( 
-     <div  id="Home">
+     <div id="Home">
       <div className="home" >
         <div className="home-div">
-        <h1 className="home-h1">Hello, I'm <span className="home-name">Rishi.</span></h1>
+        <h1 className="home-h1">Hello,<span className="home-name"> I'm Rishi.</span></h1>
           <p className="home-p">I am a <span className="home-span">React Developer</span></p>
           <ul className="home-ul">
             <li><a href="https://github.com/Rishi-077" target="_blank"><i className='icon'><AiOutlineGithub /></i></a></li>
