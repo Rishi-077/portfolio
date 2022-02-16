@@ -679,7 +679,7 @@
     }
     }
 
-     @media only screen and (max-width: 601px) {
+     @media only screen and (max-width: 706px) {
       #Contact {
      width: 100%;
      height: 900px;
@@ -695,7 +695,7 @@
      font-family: 'Noto Sans', sans-serif;
      background-color: #33415c;  
      width: 350px;
-     height: 500px; 
+     height: 450px; 
      margin: 0 auto;
      padding: 20px 30px;
      border: 1px solid  #36a4ff;
@@ -727,7 +727,7 @@
      background-color: white;
      color: #33415c;
      border: 1px solid white;
-     padding: 7px 20px;
+     padding: 10px 30px;
      font-family: 'Noto Sans  ', sans-serif;
      font-weight: 600;
      font-size: 18px;
