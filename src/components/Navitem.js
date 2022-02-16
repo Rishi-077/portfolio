@@ -11,7 +11,7 @@ function Navitem() {
         <Nav.Link href='#Home'><h4 className='nav-link'>HOME</h4></Nav.Link>
         <Nav.Link href='#About'><h4 className='nav-link'>ABOUT</h4></Nav.Link>
         <Nav.Link href='#Project'><h4 className='nav-link'>PROJECT</h4></Nav.Link>
-        <Nav.Link href='home'><h4 className='nav-link'>CONTACT</h4></Nav.Link>
+        <Nav.Link href='#Contact'><h4 className='nav-link'>CONTACT</h4></Nav.Link>
       </Nav>
       </Navbar.Collapse>
     </Navbar>

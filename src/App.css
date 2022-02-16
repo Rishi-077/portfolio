@@ -35,8 +35,8 @@
   display: block;
   display: flex;
   justify-content: space-around;
-  margin-top: 30px;
-  margin-bottom: 100px;
+  padding-top: 30px;
+  padding-bottom: 100px;
 }
 .home-div {
   margin-top: 120px;
@@ -170,8 +170,8 @@
 
  .about-page {
    display: flex;
-   padding: 140px 20px;
-   padding-bottom: 40px; 
+   padding: 120px 20px;
+   /* padding-bottom: 120px;  */
  }
 
  .about-image {
@@ -336,7 +336,8 @@
    display:block;
    display: flex;
    justify-content: space-between;
-   margin: 150px 50px;
+   margin: 0px 50px;
+   padding: 220px 0px;
    font-family: 'Noto Sans', sans-serif;
  }
 
@@ -492,3 +493,281 @@
    }
    
    }
+
+   /* -----project page ----- */
+
+   /* contact page */
+
+   #Contact {
+     width: 100%;
+     padding: 200px 20px;
+     display: block;
+     display: flex;
+     justify-content: space-around;
+     /* padding-top: 90px; */
+     background-color: white;
+   }
+   .form-header {
+     font-family: 'Noto Sans', sans-serif;
+     background-color: #33415c;  
+     width: 700px;
+     height: 500px; 
+     margin-top: 0px;
+     margin-bottom: 70px;
+     padding: 40px 60px;
+     border: 1px solid  #36a4ff;
+     border-radius: 40px;
+     box-shadow: 0px 0px 10px 4px #f1f1f1;
+   }
+
+   .form-name {
+      color: white;
+      font-size: 21px;
+      font-weight: bold;
+      margin: 20px auto;
+   /* font-family: 'Noto Sans', sans-serif; */
+   }
+
+   .form-button {
+     background-color: white;
+     color: #33415c;
+     border: 1px solid white;
+     padding: 10px 30px;
+     font-family: 'Noto Sans  ', sans-serif;
+     font-weight: 600;
+     font-size: 18px;
+     border-radius:30px;
+     margin-top: 25px;
+   }
+
+    .form-button:hover {
+     background-color: white;
+     color: #33415c;
+     border: 1px solid white;
+     padding: 10px 30px;
+     font-family: 'Noto Sans  ', sans-serif;
+     font-weight: 600;
+     font-size: 18px;
+     border-radius:30px;
+     margin-top: 25px;
+     box-shadow: 0px 0px 6px 4px white;
+   }
+
+   .form-button:active {
+     background-color: white;
+     color: #33415c;
+     border: 1px solid white;
+     padding: 10px 30px;
+     font-family: 'Noto Sans  ', sans-serif;
+     font-weight: 600;
+     font-size: 18px;
+     border-radius:30px;
+     margin-top: 25px;
+     box-shadow: 0px 0px 6px 4px white;
+   }
+
+   .contact-p {
+     font-size: 18px;
+     margin-left: 50px;
+     margin-top: 20px;
+     font-family: 'Noto Sans', sans-serif;
+     font-weight: 300;
+     color: #33415c;
+
+   }
+   
+   .contact-h6 {
+     font-size: 30px;
+     font-family: 'Noto Sans', sans-serif;
+     font-weight: 600;
+     color: #33415c;
+   }
+   .contact-section {
+     margin-top: 60px;
+     padding : 20px 20px;
+    
+    }
+
+    @media only screen and (max-width: 1144px) {
+      #Contact {
+     width: 100%;
+     padding: 100px 10px;
+     display: inline;
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-between;
+     background-color: white;
+   }
+   .form-header {
+     font-family: 'Noto Sans', sans-serif;
+     background-color: #33415c;  
+     width: 700px;
+     height: 500px; 
+     margin: 0 auto;
+     padding: 40px 60px;
+     border: 1px solid  #36a4ff;
+     border-radius: 40px;
+     box-shadow: 0px 0px 10px 4px #f1f1f1;
+   }
+
+   .form-name {
+      color: white;
+      font-size: 21px;
+      font-weight: bold;
+      margin: 20px auto;
+   /* font-family: 'Noto Sans', sans-serif; */
+   }
+
+   .form-button {
+     background-color: white;
+     color: #33415c;
+     border: 1px solid white;
+     padding: 10px 30px;
+     font-family: 'Noto Sans  ', sans-serif;
+     font-weight: 600;
+     font-size: 18px;
+     border-radius:30px;
+     margin-top: 25px;
+   }
+
+    .form-button:hover {
+     background-color: white;
+     color: #33415c;
+     border: 1px solid white;
+     padding: 10px 30px;
+     font-family: 'Noto Sans  ', sans-serif;
+     font-weight: 600;
+     font-size: 18px;
+     border-radius:30px;
+     margin-top: 25px;
+     box-shadow: 0px 0px 6px 4px white;
+   }
+
+   .form-button:active {
+     background-color: white;
+     color: #33415c;
+     border: 1px solid white;
+     padding: 10px 30px;
+     font-family: 'Noto Sans  ', sans-serif;
+     font-weight: 600;
+     font-size: 18px;
+     border-radius:30px;
+     margin-top: 25px;
+     box-shadow: 0px 0px 6px 4px white;
+   }
+
+   .contact-p {
+     font-size: 18px;
+     margin-left: 20px;
+     margin-top: 20px;
+     font-family: 'Noto Sans', sans-serif;
+     font-weight: 300;
+     color: #33415c;
+
+   }
+   
+   .contact-h6 {
+     font-size: 30px;
+     font-family: 'Noto Sans', sans-serif;
+     font-weight: 600;
+     color: #33415c;
+   }
+   .contact-section {
+     margin-top: 60px;
+     padding : 20px 20px;
+    
+    }
+    }
+
+     @media only screen and (max-width: 601px) {
+      #Contact {
+     width: 100%;
+     height: 900px;
+     padding: 50px 10px;
+     /* margin: 30px auto; */
+     display : flex;
+     flex-direction: column;
+     margin: 100 auto;
+     align-items: center;
+     background-color: white;
+   }
+   .form-header {
+     font-family: 'Noto Sans', sans-serif;
+     background-color: #33415c;  
+     width: 350px;
+     height: 500px; 
+     margin: 0 auto;
+     padding: 20px 30px;
+     border: 1px solid  #36a4ff;
+     border-radius: 40px;
+     box-shadow: 0px 0px 10px 4px #f1f1f1;
+   }
+
+   .form-name {
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      margin: 20px auto;
+   /* font-family: 'Noto Sans', sans-serif; */
+   }
+
+   .form-button {
+     background-color: white;
+     color: #33415c;
+     border: 1px solid white;
+     padding: 10px 30px;
+     font-family: 'Noto Sans  ', sans-serif;
+     font-weight: 600;
+     font-size: 18px;
+     border-radius:30px;
+     margin-top: 25px;
+   }
+
+    .form-button:hover {
+     background-color: white;
+     color: #33415c;
+     border: 1px solid white;
+     padding: 7px 20px;
+     font-family: 'Noto Sans  ', sans-serif;
+     font-weight: 600;
+     font-size: 18px;
+     border-radius:30px;
+     margin-top: 25px;
+     box-shadow: 0px 0px 6px 4px white;
+   }
+
+   .form-button:active {
+     background-color: white;
+     color: #33415c;
+     border: 1px solid white;
+     padding: 10px 30px;
+     font-family: 'Noto Sans  ', sans-serif;
+     font-weight: 600;
+     font-size: 18px;
+     border-radius:30px;
+     margin-top: 25px;
+     box-shadow: 0px 0px 6px 4px white;
+   }
+
+   .contact-p {
+     font-size: 18px;
+     margin-left: 20px;
+     margin-top: 20px;
+     font-family: 'Noto Sans', sans-serif;
+     font-weight: 300;
+     color: #33415c;
+
+   }
+   
+   .contact-h6 {
+     font-size: 30px;
+     font-family: 'Noto Sans', sans-serif;
+     font-weight: 600;
+     color: #33415c;
+   }
+   .contact-section {
+     margin-top: 0px;
+     padding : 0px 10px;
+    
+    }
+    }
