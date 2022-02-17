@@ -22,13 +22,14 @@ function Contact ()
   return ( 
     <div className="container-fluid" id='Contact'>
       <section className="contact-section">
-        <h6 className="contact-h6">Contact Details </h6>
+        <h6 className="contact-h6">Contact Details</h6>
         <p className="contact-p">Rishikesan</p>
         <p className="contact-p">Muthunagar, Ar quatres</p>
-        <p className="contact-p">Sivagangai, 630561</p>
+        <p className="contact-p">Sivagangai, Tamilnadu 630561</p>
         <p className="contact-p">+91 9361087223</p>
         <p className="contact-p">rishikesan070@gamil.com</p>
       </section>
+    
       <Form ref={form} onSubmit={sendEmail} className="form-header">
         <Form.Group className="mb-3 form-name">
           <Form.Label>Name </Form.Label>
