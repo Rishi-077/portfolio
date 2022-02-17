@@ -182,12 +182,14 @@
  .about-h2 {
    color: #33415c;
    margin: 0px auto;
-   margin-top: 70px;
+   margin-top: 40px;
    margin-bottom: 50px;
    font-size: 40px;
    font-weight: 900;
    margin-left: 50px;
    font-family: 'Noto Sans', sans-serif;
+  text-decoration: underline;
+  line-height: 30px;
  }
 
  .about-p {
@@ -198,7 +200,19 @@
    margin-top: 0px;
    font-weight: bold;
  }
-
+.about-p2 {
+   color: #33415c;  
+   font-weight: bold;
+   font-size: 17px;
+   margin-left: 150px;
+}
+.about-p3 {
+   color: #33415c;  
+   font-weight: 400;
+   font-size: 17px;
+   margin-left: 150px;
+   font-family: 'Noto Sans', sans-serif;
+}
  .about-btn a {
    text-decoration: none;
    color: white;
@@ -261,10 +275,24 @@
    color: #33415c;
    font-size: 25px;
    font-family: 'Noto Sans', sans-serif;
-   margin-left: 150px;
+   margin-left: 100px;
    margin-top: 0px;
    font-weight: bold;
  }
+
+ .about-p2 {
+   color: #33415c;  
+   font-weight: bold;
+   font-size: 17px;
+   margin-left: 100px;
+}
+.about-p3 {
+   color: #33415c;  
+   font-weight: 400;
+   font-size: 17px;
+   margin-left: 100px;
+   font-family: 'Noto Sans', sans-serif;
+}
 
  .about-btn a {
    text-decoration: none;
@@ -587,7 +615,7 @@
      padding : 20px 20px;
     
     }
-
+   
     @media only screen and (max-width: 1144px) {
       #Contact {
      width: 100%;
@@ -629,7 +657,11 @@
      border-radius:30px;
      margin-top: 25px;
    }
-
+  .contact-divider {
+    color: #33415c;
+    width: 3px;
+    height: 200px;
+  }
     .form-button:hover {
      background-color: white;
      color: #33415c;
