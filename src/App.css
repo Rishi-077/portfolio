@@ -90,7 +90,7 @@
 .home-img:hover {
   border-radius:50%;
   width:42%;
-  border: 25px solid #33415c;
+  border: 55px solid #33415c;
   transition: 1s;
   margin-right: 50px;
 }
@@ -118,9 +118,13 @@
    .home {
      display: inline;
   }
+  .home-ul{
+    margin-right: 30px;
+  }
    .home-div {
-     margin-top: 40px;
+     margin-top: 80px;
      text-align: center;
+     margin-right: 30px;
   }
   .home-name:hover {
   color: #33415c;
@@ -148,8 +152,8 @@
   width:45%;
   border: 20px solid white;
   margin: 0px auto;
-  margin-top: 20px;
-  margin-bottom: 30px;
+  margin-top: 50px;
+  margin-bottom: 100px;
   display: flex;
 }
 .home-img:hover {
@@ -159,7 +163,7 @@
   transition: 1s;
   margin: 0 auto;
   margin-top: 50px;
-  margin-bottom: 30px;
+  margin-bottom: 100px;
   align-items: center;
 }
  }
@@ -171,6 +175,7 @@
  .about-page {
    display: flex;
    padding: 120px 20px;
+   margin: 0px auto;
    /* padding-bottom: 120px;  */
  }
 
@@ -179,25 +184,41 @@
    margin-top: 0px;
 
  }
- .about-h2 {
+ .about-h2-1 {
    color: #33415c;
    margin: 0px auto;
    margin-top: 40px;
    margin-bottom: 50px;
+   width: fit-content;
+   padding-bottom: 10px;
    font-size: 40px;
    font-weight: 900;
    margin-left: 50px;
    font-family: 'Noto Sans', sans-serif;
-  text-decoration: underline;
-  line-height: 30px;
+   border-bottom: 4px solid #33415c;
  }
 
+ .about-h2-2 {
+   color: #33415c;
+   margin: 0px auto;
+   margin-top: 40px;
+   margin-bottom: 50px;
+   width: fit-content;
+   padding-bottom: 10px;
+   font-size: 40px;
+   font-weight: 900;
+   margin-left: 50px;
+   font-family: 'Noto Sans', sans-serif;
+   border-bottom: 4px solid #33415c;
+
+ }
  .about-p {
    color: #33415c;
    font-size: 30px;
    font-family: 'Noto Sans', sans-serif;
    margin-left: 150px;
    margin-top: 0px;
+   margin-right: 50px;
    font-weight: bold;
  }
 .about-p2 {
@@ -260,15 +281,34 @@
   .about-image {
    display: none;
  }
-  .about-h2 {
+  .about-h2-1 {
+   width: fit-content;
    color: #33415c;
    margin: 0px auto;
-   margin-top: 0px;
+   margin-top: 40px;
    margin-bottom: 50px;
-   font-size: 35px;
+   /* margin-right: 920px; */
+   padding-bottom: 10px;
+   font-size: 40px;
    font-weight: 900;
-   margin-left: 50px;
+   margin-left: 20px;
    font-family: 'Noto Sans', sans-serif;
+   border-bottom: 4px solid #33415c;
+ }
+
+ .about-h2-2 {
+   color: #33415c;
+   margin: 0px auto;
+   margin-top: 40px;
+   margin-bottom: 50px;
+   width: fit-content;
+   padding-bottom: 10px;
+   font-size: 40px;
+   font-weight: 900;
+   margin-left: 20px;
+   font-family: 'Noto Sans', sans-serif;
+   border-bottom: 4px solid #33415c;
+
  }
 
  .about-p {
@@ -315,7 +355,7 @@
    border: 0px solid #36a4ff;
    padding: 10px 40px;
    border-radius:24px;
-   margin-left: 150px;
+   margin-left: 50px;
    margin-top: 50px;
    transition: 0.2s;
  }
@@ -539,13 +579,18 @@
      font-family: 'Noto Sans', sans-serif;
      background-color: #33415c;  
      width: 700px;
-     height: 500px; 
+     height: 550px; 
      margin-top: 0px;
      margin-bottom: 70px;
-     padding: 40px 60px;
+     padding: 40px 70px;
      border: 1px solid  #36a4ff;
      border-radius: 40px;
      box-shadow: 0px 0px 10px 4px #f1f1f1;
+   }
+   .contact-icon {
+     font-size: 46px;
+     margin-bottom: 20px;
+     margin-top: -30px;
    }
 
    .form-name {
@@ -626,6 +671,12 @@
      justify-content: space-between;
      background-color: white;
    }
+   .contact-icon {
+     font-size: 36px;
+     margin-bottom: 10px;
+     margin-top: -30px;
+   }
+
    .form-header {
      font-family: 'Noto Sans', sans-serif;
      background-color: #33415c;  
@@ -716,7 +767,6 @@
      width: 100%;
      height: 900px;
      padding: 50px 10px;
-     /* margin: 30px auto; */
      display : flex;
      flex-direction: column;
      margin: 100 auto;
@@ -727,12 +777,17 @@
      font-family: 'Noto Sans', sans-serif;
      background-color: #33415c;  
      width: 350px;
-     height: 450px; 
+     height: 480px; 
      margin: 0 auto;
      padding: 20px 30px;
      border: 1px solid  #36a4ff;
      border-radius: 40px;
      box-shadow: 0px 0px 10px 4px #f1f1f1;
+   }
+   .contact-icon {
+     font-size: 36px;
+     margin-bottom: 20px;
+     margin-top: -30px;
    }
 
    .form-name {

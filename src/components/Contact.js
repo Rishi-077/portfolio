@@ -1,7 +1,8 @@
 import React,{useRef} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import emailjs from '@emailjs/browser';
-import { Form,Button } from 'react-bootstrap';
+import { Form } from 'react-bootstrap';
+import {CgComment,MdMessage} from "react-icons/md";
 
 function Contact ()
 {  
@@ -29,9 +30,15 @@ function Contact ()
         <p className="contact-p">+91 9361087223</p>
         <p className="contact-p">rishikesan070@gamil.com</p>
       </section>
-    
+
+      
       <Form ref={form} onSubmit={sendEmail} className="form-header">
+
         <Form.Group className="mb-3 form-name">
+          <div className="contact-icon">
+            <MdMessage />
+          </div>
+          
           <Form.Label>Name </Form.Label>
           <Form.Control type="text" name="user_name" placeholder="Enter your name"/>
         </Form.Group>
