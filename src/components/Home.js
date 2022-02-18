@@ -1,7 +1,7 @@
 import React from 'react';
 import { AiFillInstagram, AiOutlineGithub, AiFillLinkedin } from 'react-icons/ai';
 import '../App.css'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 function Home ()
 {
   
@@ -18,7 +18,7 @@ function Home ()
             <li><a target="_blank" href="https://www.linkedin.com/in/rishi-kesan-2b23ba228/"><i className='icon'><AiFillLinkedin /></i></a></li>
           </ul>
         </div>
-        <img className="home-img" src='./images/photo Blue 2.jpg' alt="rishi"/>
+        <img className="home-img" src='images/profile.jpg' alt="rishi"/>
       </div>
      </div> 
    );
