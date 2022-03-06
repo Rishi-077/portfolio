@@ -21,7 +21,7 @@ function About ()
           <p className="about-p">Raja Durai Singam Govt arts college</p>
           <p className="about-p2">BA (English literature)     * 2022</p>
           <p className='about-p3'>pursuing</p>
-          <button className="about-btn"><a href="https://drive.google.com/file/d/1HgxefWbslObQKj7gUlq5tT9EgL3tpuek/view?usp=sharing"
+          <button className="about-btn"><a href="https://drive.google.com/file/d/1ujaVRApBKOsH_icXyKRerEsa24y6jOBy/view?usp=sharing"
           target="_blank">Resume</a></button>
         </div>
       </div>
