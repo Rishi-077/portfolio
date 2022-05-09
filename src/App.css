@@ -1,10 +1,10 @@
 /* navbar design */
 
+
 .nav-items--{
   align-items: center;
   display: flex;
-  /* margin-bottom: 600px; */
-
+ 
 }
 .navbar-header {
   background-color: rgb(255, 255, 255);
@@ -14,6 +14,7 @@
   margin: 0px 5px;
   font-weight: 800;
   font-size:15px;
+  font-family: 'Poppins', sans-serif;
 }
 
 @media only screen and (min-width:997px) {
@@ -29,7 +30,7 @@
 }
 /* navbar design */
 
-/* Home condent */
+/* Home content */
 
 .home{
   display: block;
@@ -83,7 +84,7 @@
   border: 60px solid white;
   margin-right: 50px;
   transition: 1s;
-  margin-top: 100px;
+  margin-top: 40px;
   margin-bottom: 10px;
 }
 
